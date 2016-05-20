@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{66D074B2-E45E-4D82-87E1-71799A44A1BB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GpsTracking</RootNamespace>
+    <AssemblyName>GpsTracking</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap-datetimepicker-master\build\css\bootstrap-datetimepicker-standalone.css" />
+    <Content Include="bootstrap-datetimepicker-master\build\css\bootstrap-datetimepicker.css" />
+    <Content Include="bootstrap-datetimepicker-master\build\css\bootstrap-datetimepicker.min.css" />
+    <Content Include="bootstrap-datetimepicker-master\build\js\bootstrap-datetimepicker.min.js" />
+    <Content Include="bootstrap-datetimepicker-master\Gruntfile.js" />
+    <Content Include="bootstrap-datetimepicker-master\src\js\bootstrap-datetimepicker.js" />
+    <Content Include="bootstrap-datetimepicker-master\src\nuget\NuGet.exe" />
+    <Content Include="bootstrap-datetimepicker-master\tasks\bump_version.js" />
+    <Content Include="bootstrap-datetimepicker-master\test\publicApiSpec.js" />
+    <Content Include="bootstrap-datetimepicker-master\test\screen-capture\base.html" />
+    <Content Include="bootstrap-datetimepicker-master\test\screen-capture\compile.js" />
+    <Content Include="bootstrap-datetimepicker-master\test\screen-capture\index.js" />
+    <Content Include="bootstrap-datetimepicker-master\test\screen-capture\t1.html" />
+    <Content Include="bootstrap-datetimepicker-master\test\screen-capture\t2.html" />
+    <Content Include="bootstrap-datetimepicker-master\test\screen-capture\t3.html" />
+    <Content Include="bootstrap-datetimepicker-master\test\screen-capture\t4.html" />
+    <Content Include="bootstrap-datetimepicker-master\test\screen-capture\t5.html" />
+    <Content Include="css\bootstrap-duallistbox.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\checbox\build.css" />
+    <Content Include="css\font-awesome-4.5.0\css\font-awesome.css" />
+    <Content Include="css\font-awesome-4.5.0\css\font-awesome.min.css" />
+    <Content Include="css\font-awesome-4.5.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="css\font-awesome-4.5.0\HELP-US-OUT.txt" />
+    <Content Include="css\modal.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\sweetalert.css" />
+    <Content Include="img\1463579801_Location.png" />
+    <Content Include="img\finishicon.png" />
+    <Content Include="img\marker-blue.png" />
+    <Content Include="img\marker-green.png" />
+    <Content Include="img\marker-red.png" />
+    <Content Include="img\starticon.png" />
+    <Content Include="js\datetimepicker\css\bootstrap-datetimepicker-standalone.css" />
+    <Content Include="js\datetimepicker\css\bootstrap-datetimepicker.css" />
+    <Content Include="js\datetimepicker\css\bootstrap-datetimepicker.min.css" />
+    <Content Include="js\datetimepicker\js\bootstrap-datetimepicker.min.js" />
+    <Content Include="Default.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.html" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="image\green.jpg" />
+    <Content Include="image\logofornetsite.png" />
+    <Content Include="image\logofornetsite2.png" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-1.11.3.js" />
+    <Content Include="js\jquery-1.9.1.min.js" />
+    <Content Include="js\NetGPS.js" />
+    <Content Include="js\NetGPS.en-US.js" />
+    <Content Include="js\NetGPS.tr-TR.js" />
+    <Content Include="js\Sharer.js" />
+    <Content Include="js\sweetalert.min.js" />
+    <Content Include="js\moment-master\meteor\export.js" />
+    <Content Include="js\moment-master\meteor\package.js" />
+    <Content Include="js\moment-master\meteor\test.js" />
+    <Content Include="js\moment-master\min\locales.js" />
+    <Content Include="js\moment-master\min\locales.min.js" />
+    <Content Include="js\moment-master\min\moment-with-locales.js" />
+    <Content Include="js\moment-master\min\moment-with-locales.min.js" />
+    <Content Include="js\moment-master\min\moment.min.js" />
+    <Content Include="js\moment-master\min\tests.js" />
+    <Content Include="packages.config" />
+    <Content Include="bootstrap-datetimepicker-master\.gitattributes" />
+    <Content Include="bootstrap-datetimepicker-master\.gitignore" />
+    <Content Include="bootstrap-datetimepicker-master\.jscs.json" />
+    <Content Include="bootstrap-datetimepicker-master\.npmignore" />
+    <Content Include="bootstrap-datetimepicker-master\.travis.yml" />
+    <Content Include="bootstrap-datetimepicker-master\bower.json" />
+    <Content Include="bootstrap-datetimepicker-master\component.json" />
+    <Content Include="bootstrap-datetimepicker-master\composer.json" />
+    <Content Include="bootstrap-datetimepicker-master\CONTRIBUTING.md" />
+    <Content Include="bootstrap-datetimepicker-master\docs\ChangeLog.md" />
+    <Content Include="bootstrap-datetimepicker-master\docs\ContributorsGuide.md" />
+    <Content Include="bootstrap-datetimepicker-master\docs\Events.md" />
+    <Content Include="bootstrap-datetimepicker-master\docs\Extras.md" />
+    <Content Include="bootstrap-datetimepicker-master\docs\FAQ.md" />
+    <Content Include="bootstrap-datetimepicker-master\docs\Functions.md" />
+    <Content Include="bootstrap-datetimepicker-master\docs\index.md" />
+    <Content Include="bootstrap-datetimepicker-master\docs\Installing.md" />
+    <Content Include="bootstrap-datetimepicker-master\docs\Options.md" />
+    <Content Include="bootstrap-datetimepicker-master\docs\Version 4 Changelog.md" />
+    <Content Include="bootstrap-datetimepicker-master\docs\Version 4 Contributors guide.md" />
+    <Content Include="bootstrap-datetimepicker-master\LICENSE" />
+    <Content Include="bootstrap-datetimepicker-master\mkdocs.yml" />
+    <Content Include="bootstrap-datetimepicker-master\package.json" />
+    <Content Include="bootstrap-datetimepicker-master\README.md" />
+    <Content Include="bootstrap-datetimepicker-master\src\less\bootstrap-datetimepicker-build.less" />
+    <Content Include="bootstrap-datetimepicker-master\src\less\_bootstrap-datetimepicker.less" />
+    <Content Include="bootstrap-datetimepicker-master\src\nuget\Bootstrap.v3.Datetimepicker.CSS.nuspec" />
+    <Content Include="bootstrap-datetimepicker-master\src\nuget\Bootstrap.v3.Datetimepicker.nuspec" />
+    <Content Include="bootstrap-datetimepicker-master\src\nuget\install.ps1" />
+    <Content Include="bootstrap-datetimepicker-master\src\sass\bootstrap-datetimepicker-build.scss" />
+    <Content Include="bootstrap-datetimepicker-master\src\sass\_bootstrap-datetimepicker.scss" />
+    <Content Include="bootstrap-datetimepicker-master\test\screen-capture\out\.gitignore" />
+    <Content Include="bootstrap-datetimepicker-master\test\screen-capture\pic\.gitignore" />
+    <Content Include="css\font-awesome-4.5.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="css\font-awesome-4.5.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="css\font-awesome-4.5.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="css\font-awesome-4.5.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="css\font-awesome-4.5.0\fonts\FontAwesome.otf" />
+    <Content Include="css\font-awesome-4.5.0\less\animated.less" />
+    <Content Include="css\font-awesome-4.5.0\less\bordered-pulled.less" />
+    <Content Include="css\font-awesome-4.5.0\less\core.less" />
+    <Content Include="css\font-awesome-4.5.0\less\fixed-width.less" />
+    <Content Include="css\font-awesome-4.5.0\less\font-awesome.less" />
+    <Content Include="css\font-awesome-4.5.0\less\icons.less" />
+    <Content Include="css\font-awesome-4.5.0\less\larger.less" />
+    <Content Include="css\font-awesome-4.5.0\less\list.less" />
+    <Content Include="css\font-awesome-4.5.0\less\mixins.less" />
+    <Content Include="css\font-awesome-4.5.0\less\path.less" />
+    <Content Include="css\font-awesome-4.5.0\less\rotated-flipped.less" />
+    <Content Include="css\font-awesome-4.5.0\less\stacked.less" />
+    <Content Include="css\font-awesome-4.5.0\less\variables.less" />
+    <Content Include="css\font-awesome-4.5.0\scss\font-awesome.scss" />
+    <Content Include="css\font-awesome-4.5.0\scss\_animated.scss" />
+    <Content Include="css\font-awesome-4.5.0\scss\_bordered-pulled.scss" />
+    <Content Include="css\font-awesome-4.5.0\scss\_core.scss" />
+    <Content Include="css\font-awesome-4.5.0\scss\_fixed-width.scss" />
+    <Content Include="css\font-awesome-4.5.0\scss\_icons.scss" />
+    <Content Include="css\font-awesome-4.5.0\scss\_larger.scss" />
+    <Content Include="css\font-awesome-4.5.0\scss\_list.scss" />
+    <Content Include="css\font-awesome-4.5.0\scss\_mixins.scss" />
+    <Content Include="css\font-awesome-4.5.0\scss\_path.scss" />
+    <Content Include="css\font-awesome-4.5.0\scss\_rotated-flipped.scss" />
+    <Content Include="css\font-awesome-4.5.0\scss\_stacked.scss" />
+    <Content Include="css\font-awesome-4.5.0\scss\_variables.scss" />
+    <None Include="Scripts\jquery-1.9.0.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.9.0.js" />
+    <Content Include="Scripts\jquery-1.9.0.min.js" />
+    <Content Include="Scripts\npm.js" />
+    <Content Include="img\social\blogger-128.png" />
+    <Content Include="img\social\email.png" />
+    <Content Include="img\social\facebook-128.png" />
+    <Content Include="img\social\facebook-small.png" />
+    <Content Include="img\social\facebook.png" />
+    <Content Include="img\social\googleplus-128.png" />
+    <Content Include="img\social\googleplus.png" />
+    <Content Include="img\social\instagram.png" />
+    <Content Include="img\social\linkedin-128.png" />
+    <Content Include="img\social\linkedin.png" />
+    <Content Include="img\social\pinterest-128.png" />
+    <Content Include="img\social\pinterest.png" />
+    <Content Include="img\social\twitter-128.png" />
+    <Content Include="img\social\twitter.png" />
+    <Content Include="img\social\youtube-128.png" />
+    <Content Include="img\social\youtube.png" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="js\moment-master\meteor\README.md" />
+    <Content Include="js\moment-master\scripts\npm_prepublish.sh" />
+    <Content Include="Scripts\jquery-1.9.0.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>12438</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:12234/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

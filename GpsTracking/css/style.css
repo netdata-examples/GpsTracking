@@ -1,0 +1,21 @@
+﻿.col-centered {
+    display: table;
+    float: none;
+    margin: 0 auto;
+}
+
+.login-box {
+    padding: 30px;
+    background-color: #2196F3;
+}
+
+.login-button {
+    margin-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #8BC34A;
+    border-color: #8BC34A;
+}
+.c-white {
+    color: #fff;
+}

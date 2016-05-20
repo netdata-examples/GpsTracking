@@ -1,0 +1,6 @@
+c:\users\osman\documents\visual studio 2013\Projects\GpsTracking\GpsTracking\obj\Debug\GpsTracking.csprojResolveAssemblyReference.cache
+c:\users\osman\documents\visual studio 2013\Projects\GpsTracking\GpsTracking\bin\GpsTracking.dll.config
+c:\users\osman\documents\visual studio 2013\Projects\GpsTracking\GpsTracking\bin\GpsTracking.dll
+c:\users\osman\documents\visual studio 2013\Projects\GpsTracking\GpsTracking\bin\GpsTracking.pdb
+c:\users\osman\documents\visual studio 2013\Projects\GpsTracking\GpsTracking\obj\Debug\GpsTracking.dll
+c:\users\osman\documents\visual studio 2013\Projects\GpsTracking\GpsTracking\obj\Debug\GpsTracking.pdb
